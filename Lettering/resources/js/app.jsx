@@ -1,11 +1,16 @@
+import './bootstrap';
+
+
 import React from 'react';
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+
 
 import App from './component/App';
 
 
 ReactDOM.createRoot(document.getElementById('app')).render(
-    <StrictMode>
+    <BrowserRouter>
     <App/>
-    </StrictMode>
+    </BrowserRouter>
 )
