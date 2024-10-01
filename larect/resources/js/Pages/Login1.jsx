@@ -1,6 +1,6 @@
 // import "./styles.css";
 import './css/styles.css';
-import logo from "./img/logo.svg";
+import logo from "./img/PROUDIT.png";
 
 export default function Login1(){
   return(
@@ -8,15 +8,12 @@ export default function Login1(){
     <div className="login-1-background"></div>
     <div className="login-1-card">
       <img src={logo} />
-      <h2>Welcome back</h2>
+      <h2>STAFF LOGIN</h2>
       <form>
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <button>Sign In</button>
       </form>
-      <footer>
-        Need an account? Sign up <a href="#">here</a>
-      </footer>
     </div>
   </section>
   )

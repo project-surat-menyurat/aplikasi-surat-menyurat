@@ -59,7 +59,7 @@
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
-    background: #216ce7;
+    background: hsl(217, 67%, 15%);
   }
   
   @media (width >= 500px) {
@@ -101,7 +101,7 @@
   
   .login-1-card form > input {
     border: 0;
-    padding: 0 24px;
+    padding: 5 24px;
     color: #222222;
     background: #ededed;
   }
@@ -113,7 +113,7 @@
   .login-1-card form > button {
     border: 0;
     color: #f9f9f9;
-    background: #226ce7;
+    background: hsl(217, 67%, 15%);
     display: grid;
     place-items: center;
     font-weight: 500;
